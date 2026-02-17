@@ -1,7 +1,7 @@
 {
   "name": "collaborator",
-  "description": "Skills for working with collections of user notes to extract actionable insights. Surveys your vault, infers goals, identifies blockers, derives actions, and proposes what to do next.",
-  "version": "0.1.0",
+  "description": "Reflection and ontology pipelines for collections of user notes. Initiative surveys your vault, infers goals, identifies blockers, and proposes actions. Ontology extracts entities, maps relations, and surfaces tensions and alignments in your thinking.",
+  "version": "0.2.0",
   "author": {
     "name": "Collaborator AI"
   },
