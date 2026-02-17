@@ -1,0 +1,11 @@
+{
+  "name": "initiative",
+  "description": "Run the Initiative pipeline against a notes collection. Surveys your vault, infers goals, identifies blockers, derives actions, synthesizes a brief, and proposes what the Collaborator should do next.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Collaborator AI"
+  },
+  "homepage": "https://collaborator.bot",
+  "repository": "https://github.com/collaborator-ai/collab-plugins",
+  "license": "MIT"
+}
