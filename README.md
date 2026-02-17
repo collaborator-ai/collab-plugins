@@ -1,6 +1,6 @@
 # Collaborator
 
-Skills for working with collections of user notes to extract actionable insights.
+Reflection and ontology pipelines for collections of user notes. Turn any folder of markdown into actionable insight.
 
 ## Skills
 
@@ -17,6 +17,23 @@ Point it at a directory of markdown files and it produces:
 - A **brief** identifying the critical path — the one thing that unblocks everything else
 - **Proposals** for work an AI agent can do immediately (research, drafts, analysis)
 
+### `/collaborator:ontology`
+
+Run the Ontology pipeline against a notes collection. Extracts a three-layer knowledge structure that maps where your thinking is coherent and where unresolved tensions live.
+
+**Pipeline:** Extract → Relations → Alignments → Synthesis
+
+This is not a classical knowledge graph. The value is in the third layer:
+
+- **Entities** — concepts, decisions, products, people, principles, goals, and problems extracted from your notes
+- **Relations** — directed connections between entities (enables, blocks, contradicts, replaced, depends-on, etc.)
+- **Alignments** — edges between *relations* that reveal whether two connections confirm each other (positive) or pull against each other (negative/tension)
+
+The synthesis identifies:
+- **Load-bearing beliefs** — the strongest positive alignments, where conviction is highest
+- **Active tensions** — unresolved negative alignments that demand decisions
+- **Implications for action** — where the ontology suggests you need to act
+
 ## Install
 
 ```bash
@@ -27,7 +44,9 @@ Point it at a directory of markdown files and it produces:
 /plugin install collaborator@collab-plugins
 ```
 
-Then use `/collaborator:initiative <path-to-notes>` in Claude Code.
+Then use in Claude Code:
+- `/collaborator:initiative <path-to-notes>`
+- `/collaborator:ontology <path-to-notes>`
 
 ## Examples
 
@@ -38,7 +57,7 @@ See the [examples/](examples/) directory for sample pipeline outputs from three 
 
 ## What is Collaborator?
 
-When everything is buildable, the bottleneck becomes knowing the right thing to build. [Collaborator](https://collaborator.bot) helps AI power users decide what to build next — and why.
+A set of tools that turn an OpenClaw agent into a thinking partner. [Learn more](https://collaborator.bot).
 
 ## License
 
