@@ -1,0 +1,11 @@
+{
+  "name": "collaborator",
+  "description": "Skills for working with collections of user notes to extract actionable insights. Surveys your vault, infers goals, identifies blockers, derives actions, and proposes what to do next.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Collaborator AI"
+  },
+  "homepage": "https://collaborator.bot",
+  "repository": "https://github.com/collaborator-ai/collab-plugins",
+  "license": "MIT"
+}

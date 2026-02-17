@@ -5,15 +5,15 @@
     "email": "hello@collaborator.bot"
   },
   "metadata": {
-    "description": "Plugins from the Collaborator project — bring persistent AI judgment into your coding tools.",
+    "description": "Skills for working with collections of user notes to extract actionable insights.",
     "version": "0.1.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
     {
-      "name": "initiative",
-      "source": "./initiative",
-      "description": "Run the Initiative pipeline against a notes collection. Surveys your vault, infers goals, identifies blockers, derives actions, and proposes what the Collaborator should do next.",
+      "name": "collaborator",
+      "source": "./collaborator",
+      "description": "Skills for working with collections of user notes to extract actionable insights. Surveys your vault, infers goals, identifies blockers, derives actions, and proposes what to do next.",
       "version": "0.1.0",
       "author": {
         "name": "Collaborator AI"
@@ -21,21 +21,7 @@
       "homepage": "https://collaborator.bot",
       "repository": "https://github.com/collaborator-ai/collab-plugins",
       "license": "MIT",
-      "keywords": ["initiative", "goals", "blockers", "actions", "notes", "productivity", "agent"],
-      "category": "productivity"
-    },
-    {
-      "name": "collab",
-      "source": "./collab",
-      "description": "Invoke the Collaborator persona in any AI coding tool. Loads identity, context, memory, and judgment — turning your AI into a creative partner with opinions.",
-      "version": "0.1.0",
-      "author": {
-        "name": "Collaborator AI"
-      },
-      "homepage": "https://collaborator.bot",
-      "repository": "https://github.com/collaborator-ai/collab-plugins",
-      "license": "MIT",
-      "keywords": ["collaborator", "persona", "context", "memory", "mcp"],
+      "keywords": ["initiative", "goals", "blockers", "actions", "notes", "productivity", "agent", "markdown"],
       "category": "productivity"
     }
   ]
